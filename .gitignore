@@ -11,8 +11,8 @@ node_modules/
 /bin/
 
 # Go binaries and files
-indexer/trusttrove-indexer
-indexer/trusttrove-indexer.exe
+indexer/clearledger-indexer
+indexer/clearledger-indexer.exe
 indexer/indexer.exe
 *.wasm
 *.exe
@@ -28,8 +28,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Local env files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -39,7 +37,6 @@ pnpm-debug.log*
 
 # IDEs and OS files
 .idea/
-.vscode/
 *.suo
 *.ntvs*
 *.njsproj
@@ -48,3 +45,7 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 .neon
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
